@@ -13,6 +13,6 @@ public class GenericResource {
     @Path("/validate")
     public String getData() {
 
-        return "Working";
+        return "Working fine";
     }
 }
