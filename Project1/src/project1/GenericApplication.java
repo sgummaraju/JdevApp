@@ -13,7 +13,7 @@ public class GenericApplication extends Application {
 
         // Register root resources.
         classes.add(GenericResource.class21);
-		//Adding new class1
+		//Adding new class21
 
         // Register provider classes.
 
