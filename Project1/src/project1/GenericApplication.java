@@ -12,6 +12,18 @@ public class GenericApplication extends Application {
         Set<Class<?>> classes = new HashSet<Class<?>>();
 
         // Register root resources.
+        classes.add(GenericResource.class1);
+		//Adding new class1
+
+        // Register provider classes.
+
+        return classes;
+    }
+	
+	public Set<Class<?>> getClasses1() {
+        Set<Class<?>> classes = new HashSet<Class<?>>();
+
+        // Register root resources.
         classes.add(GenericResource.class);
 
         // Register provider classes.
