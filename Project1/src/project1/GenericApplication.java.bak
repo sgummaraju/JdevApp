@@ -14,10 +14,11 @@ public class GenericApplication extends Application {
         // Register root resources.
 <<<<<<< HEAD
         classes.add(GenericResource.class12);
+		//Adding new class1
 =======
         classes.add(GenericResource.class21);
->>>>>>> eca637ee7594805fa9e22ff476b0d2143914395e
-		//Adding new class1
+		//Adding new class21
+>>>>>>> b56f1d3ec499113693b621a3d3a08197817151b0
 
         // Register provider classes.
 
